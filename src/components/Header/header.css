@@ -1,0 +1,91 @@
+.header {
+  width: 100%;
+  height: 70px;
+  line-height: 50px;
+}
+
+.nav__wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  width: 2rem;
+  height: 2rem;
+}
+
+.logo h1 {
+  color: var(--primary-color);
+  font-size: 22px;
+  font-weight: 700;
+  padding-top: 5px;
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+  column-gap: 44px;
+  margin-bottom: 0px;
+}
+
+.nav__items a {
+  font-weight: 500;
+  color: var(--primary-color);
+}
+
+.nav__icons {
+  display: flex;
+  align-items: center;
+  column-gap: 20px;
+  color: var(--primary-color);
+}
+
+.nav__icons span i {
+  font-size: 25px;
+  cursor: pointer;
+}
+
+.heart__icon,
+.cart__icon {
+  position: relative;
+}
+
+.badge {
+  position: absolute;
+  top: 14%;
+  width: 15px;
+  height: 15px;
+  right: -10%;
+  content: " ";
+  background: var(--primary-color);
+  color: #fff;
+  border-radius: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.7rem;
+  font-weight: 600;
+}
+
+.nav__icons span img {
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+}
+
+.mobile__menu {
+  font-size: 22px;
+  color: var(--primary-color);
+  display: none;
+}
+
+.nav__link {
+  color: green !important;
+  font-weight: bold !important;
+}
